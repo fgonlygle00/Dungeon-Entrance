@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class UIBtnController : MonoBehaviour
 {
+    // 상태 및 인벤토리 창 표시
     public GameObject statusWindow;
     public GameObject inventroyWindow;
 

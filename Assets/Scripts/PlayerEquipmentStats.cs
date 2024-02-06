@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class PlayerEquipmentStats : MonoBehaviour
 {
+    // 아이템 스텟 목록
     public string Name { get; private set; }
     public int Level { get; private set; }
     public int Atk { get; private set; }
@@ -34,6 +35,7 @@ public class PlayerEquipmentStats : MonoBehaviour
         Gold = _equipmentStats.Gold;
     }
 
+    // 지금 이렇게 작업하는거 좋지 않어... 다른 좋은 방법은 아는데... 참...
     private void Start()
     {
         if (_nameValue != null)

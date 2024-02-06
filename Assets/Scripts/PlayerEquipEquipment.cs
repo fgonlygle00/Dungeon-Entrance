@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerEquipEquipment : PlayerEquipmentStats
 {
-    [SerializeField] private GameObject _equipWindow;
+    [SerializeField] private GameObject _equipWindow; // ÀåÂø È®ÀÎ Ã¢
 
     [SerializeField] private GameObject _equipCheck; // ÀåÂø È®ÀÎ
     [SerializeField] private GameObject _equipdisplay; // ÀåÂøÇÏ·Á´Â Àåºñ Ç¥½Ã
