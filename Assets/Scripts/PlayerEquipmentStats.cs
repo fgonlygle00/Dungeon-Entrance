@@ -35,7 +35,6 @@ public class PlayerEquipmentStats : MonoBehaviour
         Gold = _equipmentStats.Gold;
     }
 
-    // 지금 이렇게 작업하는거 좋지 않어... 다른 좋은 방법은 아는데... 참...
     private void Start()
     {
         if (_nameValue != null)
